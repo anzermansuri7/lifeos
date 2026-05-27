@@ -1,0 +1,25 @@
+-- Life OS Supabase setup
+--
+-- Fresh database:
+-- 1. Open Supabase SQL Editor.
+-- 2. Run the full contents of:
+--    supabase/migrations/20260525000000_life_os_mvp_schema.sql
+--
+-- Existing database:
+-- Do not rerun the base schema. Run only the patch files that you have not applied yet,
+-- in filename order:
+--
+-- supabase/migrations/20260525001000_habits_module_fields.sql
+-- supabase/migrations/20260525002000_quit_habits_module_fields.sql
+-- supabase/migrations/20260525003000_finance_module_fields.sql
+-- supabase/migrations/20260526000000_health_module_fields.sql
+-- supabase/migrations/20260526001000_sleep_module_fields.sql
+-- supabase/migrations/20260526002000_journal_module_fields.sql
+-- supabase/migrations/20260526003000_guardian_invitation_system.sql
+-- supabase/migrations/20260526004000_guardian_dashboard_privacy.sql
+-- supabase/migrations/20260527000000_india_locale_defaults.sql
+-- supabase/migrations/20260527001000_prayer_module.sql
+-- supabase/migrations/20260527002000_low_screen_time_cleanup.sql
+--
+-- This file is intentionally a setup guide, not a migration, because Supabase SQL Editor
+-- does not support importing local files with psql \i commands.
